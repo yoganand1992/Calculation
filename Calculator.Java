@@ -66,10 +66,10 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
                 int multiply = Integer.parseInt(num1) * Integer.parseInt(num2);
                 result.setText(String.valueOf(multiply));
                 break;
-            case R.id.btnRatio;
-                int ratio = Integer.parseInt(num1) % Integer.parse.Int(num2);
-                result.setText(String.valueOf(Ratio));
-                break;
+           //additional feature case R.id.btnRatio;
+                //int ratio = Integer.parseInt(num1) % Integer.parse.Int(num2);
+                //result.setText(String.valueOf(Ratio));
+                //break;
         }
     }
 }
